@@ -12,6 +12,7 @@ public class Main {
 		drawMap();
 		game.humanShip();
 		game.computerShip();
+		game.Battle();
 	}
 		public static void drawMap() {
 		String [][] ocean = new String [10][10];
